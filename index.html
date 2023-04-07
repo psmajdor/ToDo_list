@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>ToDo List</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">ToDo List</h1>
+        <form class="form" data-form>
+            <input type="text" data-input autocomplete="off" placeholder="What to do...">
+            <button class="form__button">Let's do it!</button>
+        </form>
+        <div class="list" data-list>
+            <div class="todo__element">
+                <p class="complete" data-id>Todo</p>
+                <span class="remove" data-id>🗑️</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
